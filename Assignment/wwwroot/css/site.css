@@ -1,0 +1,87 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+.table-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 2px solid red;
+    border-radius: 8px;
+}
+
+.add-product {
+    display: inline-block;
+    margin-bottom: 10px;
+    padding: 8px 12px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    .add-product:hover {
+        background-color: #0056b3;
+    }
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 10px;
+}
+
+    table thead {
+        background-color: #f8f9fa;
+    }
+
+    table th, table td {
+        border: 1px solid #dee2e6;
+        padding: 8px;
+        text-align: center;
+    }
+
+    table th {
+        font-weight: bold;
+    }
+
+button {
+    padding: 5px 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+    button.view {
+        background-color: #17a2b8;
+        color: white;
+    }
+
+        button.view:hover {
+            background-color: #117a8b;
+        }
+
+    button.edit {
+        background-color: #ffc107;
+        color: white;
+    }
+
+        button.edit:hover {
+            background-color: #e0a800;
+        }
+
+    button.delete {
+        background-color: #dc3545;
+        color: white;
+    }
+
+        button.delete:hover {
+            background-color: #c82333;
+        }
+.btnproduct {
+    float: right;
+    margin-bottom: 10px;
+}
+        
